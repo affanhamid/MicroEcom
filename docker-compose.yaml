@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  user-service:
+    build: ./services/user-service
+    container_name: user-service
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./services/user-service:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run start:dev

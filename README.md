@@ -40,7 +40,11 @@ Skills built:
 ## Microservices
 
 User Service → Handles authentication & user profiles.
+
 Product Catalog Service → Manages products, inventory, and categories.
+
 Order Service → Manages customer orders.
+
 Payment Service → Handles payment processing.
+
 Shipping Service → Tracks shipments and deliveries.
